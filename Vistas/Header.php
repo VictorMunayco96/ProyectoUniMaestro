@@ -105,21 +105,27 @@ session_start();
             </li>     
                    
                   
-            
-
-
-<li class="treeview">
-              <a href="#">
-                <i class="fa fa-cubes"></i>
-                <span>Almacen General</span>
-                <i class="fa fa-angle-left pull-right"></i>
+          
+            <li>
+              <a href="IngresoQuiebre.php">
+                <i class="fa fa-cubes"></i> <span>Ingreso Quiebre</span>
               </a>
-              <ul class="treeview-menu">
-                <li><a href="IngresoTienda.php"><i class="fa fa-circle-o"></i> Almacen Distribucion</a></li>
-                <li><a href="StockSucursal.php"><i class="fa fa-circle-o"></i> Almacen Por Sucursal</a></li>
-               
-              </ul>
-            </li>
+            </li> 
+
+            <li>
+              <a href="ReporteGestionDetalle.php">
+                <i class="fa fa-cubes"></i> <span>Reporte Gestion Detalle</span>
+              </a>
+            </li> 
+
+            <li>
+              <a href="ReporteResumen.php">
+                <i class="fa fa-cubes"></i> <span>Reporte Resumen</span>
+              </a>
+            </li> 
+
+
+
 
 
 
