@@ -32,19 +32,25 @@ require 'Header.php';
                     <div class="form-group col-log-6 col-md-6 col-sm-6 col-xs-12">
                     <label>Local:</label>
                     <input type="hidden" name="idLocal" id="idLocal">
-                    <input type="number" class="form-control" placeholder="Local" name="local" id="local" required>
+                    <input type="text" class="form-control" placeholder="Local" name="local" id="local" value="Maestro Chincha" >
                     </div>
 
 
                     <div class="form-group col-log-6 col-md-6 col-sm-6 col-xs-12">
                     <label>Fecha Quiebre:</label>
-                    <input type="date" class="form-control" placeholder="Local" name="local" id="local" required>
+                    <input type="date" class="form-control" placeholder="Fecha" name="fecha" id="fecha" required>
                     </div>
 
                     <div class="form-group col-log-6 col-md-6 col-sm-6 col-xs-12">
                     <label>Codigo Producto:</label>
                    
-                    <input type="number" class="form-control" placeholder="Codigo Producto" name="codProd" id="codProd" required>
+                    <input type="text" class="form-control" placeholder="Codigo Producto" name="idProducto" id="idProducto" required>
+                    </div>
+
+                    <div class="form-group col-log-6 col-md-6 col-sm-6 col-xs-12">
+                    <label>Cantidad:</label>
+                   
+                    <input type="number" class="form-control" placeholder="Cantidad" name="cantidad" id="cantidad" required>
                     </div>
 
 
@@ -81,14 +87,17 @@ require 'Header.php';
 
                         <thead>
 
-                        <th>Codigo</th>
-                        <th>C.Barra</th>
-                        <th>Descripcion</th>
+                        <th>Opciones</th>
+                        <th>Codigo Producto</th>
+                        <th>Producto</th>
+                        <th>Marca</th>
                    
-                        <th>HUA (A.P.M)</th>
-                        <th>Nivel</th>
-                        <th>Posicion</th>
+                        <th>Cantidad Solicitada</th>
                         <th>Precio</th>
+                        <th>Stock</th>
+                        <th>ubicacion</th>
+                        <th>Unidad Medida</th>
+                        <th>Fecha Solicitada</th>
 
                         </thead>
 
@@ -98,15 +107,17 @@ require 'Header.php';
                       <tfoot>
 
                       
-                      <th>Codigo</th>
-                        <th>C.Barra</th>
-                        <th>Descripcion</th>
+                      <th>Opciones</th>
+                      <th>Codigo Producto</th>
+                        <th>Producto</th>
+                        <th>Marca</th>
                    
-                        <th>HUA (A.P.M)</th>
-                        <th>Nivel</th>
-                        <th>Posicion</th>
+                        <th>Cantidad Solicitada</th>
                         <th>Precio</th>
-
+                        <th>Stock</th>
+                        <th>ubicacion</th>
+                        <th>Unidad Medida</th>
+                        <th>Fecha Solicitada</th>
 
 
                     </tfoot>
@@ -135,5 +146,5 @@ require 'Header.php';
 require 'Footer.php';
 ?>
 
-<script type="text/javascript" src="Scripts/Categoria.js"></script>
+<script type="text/javascript" src="Scripts/IngresoQuiebre.js"></script>
 

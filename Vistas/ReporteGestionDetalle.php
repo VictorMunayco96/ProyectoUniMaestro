@@ -27,12 +27,12 @@ require 'Header.php';
 
                     <div class="panel-body" style="height: 200x;" id="FormularioRegistros">
                     
-                    <form name="Formulario" id="Formulario" method="POST">
+                
 
                     <div class="form-group col-log-6 col-md-6 col-sm-6 col-xs-12">
                     <label>Tienda:</label>
                     
-                    <input type="number" class="form-control" placeholder="Local" name="local" id="local" required>
+                    <input type="text" class="form-control" placeholder="Local" name="local" id="local" value='Maestro Chincha' required>
                     </div>
 
 
@@ -67,7 +67,7 @@ require 'Header.php';
                   
 
                     <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <button class="btn btn-success" type="submit" name="BtnGuardar" id="BtnGuardar" > Buscar</button>
+                      <button class="btn btn-success" onclick='Listar()' name="BtnGuardar" id="BtnGuardar" > Buscar</button>
 
 
                      <a href="escritorio.php"> <button class="btn btn-danger"  type="button"><i class="fa fa-arrow-circle-left"></i>
@@ -77,7 +77,7 @@ require 'Header.php';
                     </div>
 
 
-                    </form>
+                  
 
 
                         </div>
@@ -93,14 +93,14 @@ require 'Header.php';
 
                         <thead>
 
-                        <th>Codigo</th>
-                        <th>C.Barra</th>
-                        <th>Descripcion</th>
-                   
-                        <th>HUA (A.P.M)</th>
-                        <th>Nivel</th>
-                        <th>Posicion</th>
+                        <th>Producto</th>
+                        <th>Marca</th>
                         <th>Precio</th>
+                   
+                        <th>Stock</th>
+                        <th>Ubicacion</th>
+                        <th>Unidad Medida</th>
+                        <th>Familia</th>
 
                         </thead>
 
@@ -110,14 +110,14 @@ require 'Header.php';
                       <tfoot>
 
                       
-                      <th>Codigo</th>
-                        <th>C.Barra</th>
-                        <th>Descripcion</th>
-                   
-                        <th>HUA (A.P.M)</th>
-                        <th>Nivel</th>
-                        <th>Posicion</th>
+                      <th>Producto</th>
+                        <th>Marca</th>
                         <th>Precio</th>
+                   
+                        <th>Stock</th>
+                        <th>Ubicacion</th>
+                        <th>Unidad Medida</th>
+                        <th>Familia</th>
 
 
 
@@ -147,5 +147,5 @@ require 'Header.php';
 require 'Footer.php';
 ?>
 
-<script type="text/javascript" src="Scripts/Categoria.js"></script>
+<script type="text/javascript" src="Scripts/ReporteGestionDetalle.js"></script>
 
