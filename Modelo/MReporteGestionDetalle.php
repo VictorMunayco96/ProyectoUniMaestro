@@ -16,12 +16,7 @@ Class MReporteGestionDetalle
 	//Implementar un método para listar los registros
 	public function listar()
 	{
-		$sql="SELECT  p.nombre, p.marca, p.precio, p.stock, p.ubicacion,um.nombre as unidadMedida, f.nombre as familiaNombre from producto p 
-		inner join unidadMedida um on um.idUnidadMedida=p.idUnidadMedida
-		inner join familia f on f.idFamilia= p.idFamilia
-
-	
-		where p.stock>0;
+		$sql="SELECT fecha, count(idQuiebre) as cantidadQuiebre from quiebre group by fecha order by fecha desc limit 30;;
 		";
 		return ejecutarConsulta($sql);		
 	}

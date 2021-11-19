@@ -40,9 +40,7 @@ require 'Header.php';
                     <label>Familia</label>
                     <select name="Familia" id="Familia" class="form-control">
   <option value="Todos">Todos</option>
-  <option value="Electronico">Electronico</option>
-  <option value="Jardineria">Jardineria</option>
-  <option value="Pintura">Pintura</option>
+
 </select>
                     </div>
 
@@ -93,14 +91,8 @@ require 'Header.php';
 
                         <thead>
 
-                        <th>Producto</th>
-                        <th>Marca</th>
-                        <th>Precio</th>
-                   
-                        <th>Stock</th>
-                        <th>Ubicacion</th>
-                        <th>Unidad Medida</th>
-                        <th>Familia</th>
+                        <th>Fecha</th>
+                        <th>Cantidad Quiebre</th>
 
                         </thead>
 
@@ -110,15 +102,8 @@ require 'Header.php';
                       <tfoot>
 
                       
-                      <th>Producto</th>
-                        <th>Marca</th>
-                        <th>Precio</th>
-                   
-                        <th>Stock</th>
-                        <th>Ubicacion</th>
-                        <th>Unidad Medida</th>
-                        <th>Familia</th>
-
+                      <th>Fecha</th>
+                        <th>Cantidad Quiebre</th>
 
 
                     </tfoot>

@@ -23,34 +23,34 @@ require 'Header.php';
 
                        
 
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
       <!-- small box -->
       <div class="small-box bg-yellow">
         <div class="inner">
-          <h3>0.00</h3>
+          <h3><a href="IngresoQuiebre.php" style="decoration:none; color:white;">Ingreso Quiebre</a></h3>
 
-          <p>Total Ventas Anuladas</p>
+          <p>Ingreso Quiebre </p>
         </div>
         <div class="icon">
           <i class="fa fa-user"></i>
         </div>
-        <a href="ingreso.php" class="small-box-footer">Sucursal 1<i class="fa fa-arrow-circle-right"></i></a>
+        <a href="IngresoQuiebre.php" class="small-box-footer">Ingreso Quiebre<i class="fa fa-arrow-circle-right"></i></a>
       </div>
     </div>
 
 
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
       <!-- small box -->
       <div class="small-box bg-blue">
         <div class="inner">
-          <h3>0.00</h3>
+          <h3><a href="ReporteGestionDetalle.php" style="decoration:none; color:white;">Reporte Gestion Detalle</a></h3>
 
-          <p>Total Ventas Anuladas</p>
+          <p>Reporte Gestion Detalle </p>
         </div>
         <div class="icon">
           <i class="fa fa-user"></i>
         </div>
-        <a href="ingreso.php" class="small-box-footer">Sucursal 1<i class="fa fa-arrow-circle-right"></i></a>
+        <a href="ReporteGestionDetalle.php" class="small-box-footer">Reporte Gestion Detalle<i class="fa fa-arrow-circle-right"></i></a>
       </div>
     </div>
 
@@ -59,37 +59,23 @@ require 'Header.php';
 
 
 
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
       <!-- small box -->
       <div class="small-box bg-red">
         <div class="inner">
-          <h3>0.00</h3>
+          <h3><a href="IngresoQuiebre.php" style="decoration:none; color:white;">Reporte Resumen</a></h3>
 
-          <p>Total Ventas Anuladas</p>
+          <p>Reporte Resumen</p>
         </div>
         <div class="icon">
           <i class="fa fa-user"></i>
         </div>
-        <a href="ingreso.php" class="small-box-footer">Sucursal 1<i class="fa fa-arrow-circle-right"></i></a>
+        <a href="ReporteResumen.php" class="small-box-footer">Reporte Resumen<i class="fa fa-arrow-circle-right"></i></a>
       </div>
     </div>
     
 
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-      <!-- small box -->
-      <div class="small-box bg-green">
-        <div class="inner">
-          <h3>0.00</h3>
 
-          <p>Total Ventas Anuladas</p>
-        </div>
-        <div class="icon">
-          <i class="fa fa-user"></i>
-        </div>
-        <a href="ingreso.php" class="small-box-footer">Sucursal 1<i class="fa fa-arrow-circle-right"></i></a>
-      </div>
-    </div>
-    
 
 
 
@@ -144,7 +130,7 @@ require 'Header.php';
                           </div>
                         </div>
 
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                           <div class="box box-primary">
                               <div class="box-header with-border">
                                 Resumen de Ventas por Tienda
@@ -157,101 +143,10 @@ require 'Header.php';
 
                         <div class="row">
                         
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <div class="box">
-          <div class="card-header border-0">
-            <h3 class="card-title"><i class="fa fa-barcode"></i> Ranking de productos</h3>
-            <div class="card-tools">
-            </div>
-          </div>
-          <div class="card-body table-responsive p-0">
-            <table class="table table-striped table-valign-middle">
-              <thead>
-              <tr>
-                <th>Nombre</th>
-                <th>Precio</th>
-                <th>Cantidad</th>
-                <th>Monto</th>
-              </tr>
-              </thead>
-              <tbody> 
-                <tr><td>ALVERJAS SIN PELAR</td><td>4</td><td>12</td><td>S/48.00</td></tr><tr><td>APIO</td><td>1.5</td><td>10</td><td>S/15.00</td></tr><tr><td>PAPA HUAYRO</td><td>3</td><td>4</td><td>S/12.00</td></tr><tr><td>ALBAHACA</td><td>1</td><td>2</td><td>S/2.00</td></tr><tr><td>PAPA BLANCA</td><td>2</td><td>1</td><td>S/2.00</td></tr>              <!--<tr>
-                <td>Some Product</td>
-                <td>S/13.00</td>
-                <td>100</td>
-                <td>S/1,300.00</td>
-              </tr>
-              <tr>
-                <td>Another Product</td>
-                <td>S/29.00</td>
-                <td>
-                    234</td>
-                <td>S/2,000.00</td>
-              </tr>
-              <tr>
-                <td>Amazing Product</td>
-                <td>S/23.00</td>
-                <td>198</td>
-                <td>S/500.00</td>
-              </tr>
-              <tr>
-                <td>Amazing Product</td>
-                <td>S/23.00</td>
-                <td>198</td>
-                <td>S/500.00</td>
-              </tr>
-              <tr>
-                <td>Another Product</td>
-                <td>S/29.00</td>
-                <td>234</td>
-                <td>S/2,000.00</td>
-              </tr>-->
-              </tbody>
-            </table>
-          </div>
-        </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <div class="box">
-          <div class="card-header border-0">
-            <h3 class="card-title"><i class="fas fa-th-large"></i> Ranking de categorias</h3>
-            <div class="card-tools">
-            </div>
-          </div>
-          <div class="card-body table-responsive p-0">
-            <table class="table table-striped table-valign-middle">
-              <thead>
-              <tr>
-                <th>Nombre</th>
-                <th>Monto</th>
-              </tr>
-              </thead>
-              <tbody>
-                <tr><td>VERDURAS Y FRUTAS</td><td>S/79.00</td></tr>              </tbody>
-            </table>
-          </div>
-        </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <div class="box">
-          <div class="card-header border-0">
-            <h3 class="card-title"><i class="fas fa-user-friends"></i> Ranking de clientes</h3>
-            <div class="card-tools">
-            </div>
-          </div>
-          <div class="card-body table-responsive p-0">
-            <table class="table table-striped table-valign-middle">
-              <thead>
-              <tr>
-                <th>Nombre</th>
-                <th>Monto</th>
-              </tr>
-              </thead>
-              <tbody>
-                <tr><td>----</td><td>S/69.00</td></tr><tr><td>MARIA ELENA ROMERO  AGUILAR</td><td>S/5.00</td></tr><tr><td>CLIENTE VARIOS</td><td>S/5.00</td></tr>              </tbody>
-            </table>
-          </div>
-        </div>
+        
+      
+
+  
         </div>
       </div>
       

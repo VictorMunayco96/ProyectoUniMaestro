@@ -2,7 +2,7 @@
         <div class="pull-right hidden-xs">
           <b>Version</b> 1.0.0
         </div>
-        <strong>Copyright &copy; 2020 <a href="#">Calicel </a>.</strong>Todos los Derechos Reservados.
+        <strong>Copyright &copy; 2021 <a href="#">Citrix </a>.</strong>Todos los Derechos Reservados.
     </footer>    
     <!-- jQuery -->
     <script src="../Public/js/jquery-3.1.1.min.js"></script>

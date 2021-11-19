@@ -23,14 +23,9 @@ switch ($_GET["op"]){
 			
 				
 				
-				 "0"=>$reg->nombre,
-				 "1"=>$reg->marca,
+				 "0"=>$reg->fecha,
+				 "1"=>$reg->cantidadQuiebre,
 				
-				 "2"=>$reg->precio,
-				 "3"=>$reg->stock,
-				 "4"=>$reg->ubicacion,
-				 "5"=>$reg->unidadMedida,
-				 "6"=>$reg->familiaNombre
  		
  				);
  		}
